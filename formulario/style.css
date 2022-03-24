@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: #7FFFD4;
+}
+h1{
+    text-align: center;
+
+}
+.container__main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.container__form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+label{
+    display: flex;
+    margin-right:38%;
+    width: 30%;
+   
+}
+.element__form{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+input[type="checkbox" i]{
+    margin-left: 10%;
+}
+.form__btns{
+    display: flex;
+    justify-content: center;
+
+
+}
+button:first-child{
+    margin-right: 5%;
+    
+}
+input{
+    width: 40%;
+    max-width: 40%;
+    min-width: 10%;
+}
