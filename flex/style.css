@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+    border: 0px;
+   
+}
+.divs{
+    width: auto;
+    background-color: red;
+    border: 1px solid black;
+    width: 120px;
+    height: 60px;
+    margin: 1px 10px 1px 10px;
+    
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap:wrap;
+    border: 0px;
+   
+}
+.divs1{
+    width: auto;
+    background-color: red;
+    border: 1px solid black;
+    width: 120px;
+    height:60px;
+    margin: 20px 10px 1px 10px;
+    
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    border: 0px;
+    gap: 10px;
+   
+}
+
+/*calc(((100vw/5)-0.4vw))*/
+.divs2{
+    flex: 0 0 18%;
+    background-color: blue;
+    border: 0px solid black;
+    width: 240px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+
+  
+    
+}
+.divs2:last-child{
+    flex: 0 0 275px;
+    min-width: 275px;
+    max-width: 275px; 
+    margin-left: 10px;
+}
+.divs2:first-child{
+    margin-left: 10px;
+}
+
+.container3{
+    display: flex;
+    justify-content: flex-start;
+   
+    width: 100%;
+}
+.divs3:first-child{
+    width: 30%;
+    max-width: 30%;
+    min-width: 30%;
+    text-align: center;
+    background-color: red;
+    border: 1px solid black;
+    width: 120px;
+    height:60px;
+    margin: 20px 10px 1px 10px;
+}
+.divs3{
+    width: 15%;
+    max-width: 15%;
+    min-width: 15%;
+    background-color: red;
+    border: 1px solid black;
+    width: 120px;
+    height:60px;
+    margin: 20px 10px 1px 10px;
+}
+.container4{
+    display: flex;
+    justify-content: flex-end;
+   
+    width: 100%;
+}
+
+.divs4:first-child{
+    width: 10%;
+    max-width: 10%;
+    min-width: 10%;
+    background-color: red;
+    border: 1px solid black;
+    width: 120px;
+    height:60px;
+    margin: 20px 10px 1px 10px;
+}
+.divs4:nth-child(2){
+    width: 15%;
+    max-width: 15%;
+    min-width: 15%;
+    background-color: red;
+    border: 1px solid black;
+    width: 120px;
+    height:60px;
+    margin: 20px 10px 1px 10px;
+}
+.divs4:last-child{
+    width: 20%;
+    max-width: 20%;
+    min-width: 20%;
+    background-color: red;
+    border: 1px solid black;
+    width: 120px;
+    height:60px;
+    margin: 20px 10px 1px 10px;
+}
+
+
