@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <h1>Personas</h1>
+    <br><br>
+    <p class="subTitle"><i class="fa-solid fa-user-plus"></i>A continuación inserte sus datos</p>
+    <div class="container__main">
+        <div class="container__form">
+            <form  name="form" id="UserForm">
+                <div class="element__form">
+                    <label for="User">Usuario</label>
+                   <input type="text" id="User"  alt="Enter User">
+                </div>
+                <div class="element__form">
+                    <label for="Lastname">Apellido</label>
+                    <input type="text" id="Lastname"   alt="Enter Last Name">
+                </div>
+                <div class="element__form">
+                    <label for="Password">Contraseña</label>
+                    <input type="password" id="Password"  alt="Enter Passsword">
+                </div>
+                <div class="element__form">
+                    <label for="Emailcompany">Email de la compañia</label>
+                    <input type="email" id="Emailcompany"  alt="Enter Email Company"> 
+                </div>
+                <div class="element__form">
+                    <label for="Email">Email personal</label>
+                    <input type="email" id="Email"  alt="Enter Email">
+                </div>
+                <div class="element__form">
+                    <label for="City">Ciudad</label>
+                    <input type="text" id="City" alt="Enter City">
+                </div>                
+                <div class="element__form">
+                    <label for="UrlImg">Url de la imagen</label>
+                    <input type="url" id="UrlImg"  alt="Enter Url Image">
+                </div>
+                <div class="element__form">
+                    <label for="DateAdd">Fecha de creación</label>
+                    <input type="date" id="DateAdd"  alt="Enter Date Added">
+                </div>
+                <div class="element__form">
+                    <label for="Active">Activado</label>
+                    <input type="checkbox" id="Active"  alt="Check Active">
+                </div>
+                <div class="element__form">
+                    <label for="DateEnd">Fecha finalización</label>
+                    <input type="date" id="DateEnd"  alt="Enter Date Ended">
+                </div>
+                <div class="form__btns">
+                    <button class="btnEnviar" type="submit">Editar</button>
+                    <button class="btnInsertar" type="button" id="insertRecordButton">Insertar</button>
+                </div>
+
+                
+            </form>
+            </div>
+
+    </div>
+        
+    
+    <script type="module" src="index.js"></script>
+  
+</body>
+</html>

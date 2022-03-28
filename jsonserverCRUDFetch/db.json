@@ -1,0 +1,30 @@
+{
+  "personas": [
+    {
+      "User": "1",
+      "LastName": "waddd",
+      "Password": "a213123",
+      "Emailcompany": "romenpdpl@gmail.com",
+      "Email": "romenpdpl@gmail.com",
+      "City": "Tacoronte",
+      "UrlImg": "http://www.google.com",
+      "DateAdd": "2022-03-02",
+      "Active": true,
+      "DateEnd": "2022-03-05",
+      "id": 1
+    },
+    {
+      "User": "2",
+      "LastName": "waddawd",
+      "Password": "a213123",
+      "Emailcompany": "romenpdpl@gmail.com",
+      "Email": "romenpdpl@gmail.com",
+      "City": "Tacoronte",
+      "UrlImg": "http://www.google.com",
+      "DateAdd": "2022-03-02",
+      "Active": true,
+      "DateEnd": "2022-03-05",
+      "id": 2
+    }
+  ]
+}
